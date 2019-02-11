@@ -1,0 +1,31 @@
+{
+    "name": "technosailor/twilio-2fa-for-wordpress",
+    "description": "2 Factor Authentication for WordPress with Twilio",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.2",
+        "php-di/php-di": "^6.0",
+        "inpsyde/metabox-orchestra": "^0.4.1"
+    },
+    "require-dev": {
+        "wp-cli/wp-cli": "^1.5.1",
+        "lucatume/function-mocker": "~1.0",
+        "phpunit/phpunit": "^6",
+        "php-http/httplug": "^1.1",
+        "codeception/codeception": "^2.5",
+        "vlucas/phpdotenv": "^2.5",
+        "lucatume/wp-browser": "^2.2."
+    },
+    "autoload": {
+        "psr-4": {
+            "Technosailor\\Twilio\\":"src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aaron Brazell",
+            "email": "aaron@technosailor.com"
+        }
+    ]
+}
